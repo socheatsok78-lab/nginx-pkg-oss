@@ -1,0 +1,5 @@
+<?xml version="1.0" ?>
+<!DOCTYPE change_log SYSTEM "changes.dtd" >
+
+
+<change_log title="nginx_module_http_proxy_connect">
