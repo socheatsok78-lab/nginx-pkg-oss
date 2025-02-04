@@ -11,8 +11,6 @@ MODULE_VERSION_PREFIX_http_proxy_connect=$(MODULE_TARGET_PREFIX)
 
 MODULE_SOURCES_http_proxy_connect=	ngx_http_proxy_connect_module-$(HTTP_PROXY_CONNECT_MODULE_VERSION).tar.gz
 
-MODULE_PATCHES_http_proxy_connect=	
-
 MODULE_CONFARGS_http_proxy_connect=	--add-dynamic-module=$(MODSRC_PREFIX)ngx_http_proxy_connect_module-$(HTTP_PROXY_CONNECT_MODULE_VERSION)
 
 .deps-module-http_proxy_connect:
